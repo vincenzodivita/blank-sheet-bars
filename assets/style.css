@@ -25,3 +25,25 @@
     --drktheme-color: #B4B4B4;
 }
 
+/************************************************
+/* Body
+************************************************/
+
+body {
+    background-color: var(--body-color);
+}
+
+.container {
+    width: calc(100vw - 4rem);
+    height: 100vh;
+    margin: 2rem;
+    margin: auto;
+    display: flex;
+}
+
+.sheet {
+    aspect-ratio: 210 / 297;
+    background-color: var(--littheme-sheet);
+    border: 1px solid var(--littheme-color);
+}
+
