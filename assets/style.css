@@ -34,11 +34,12 @@ body {
 }
 
 .container {
-    width: calc(100vw - 4rem);
-    height: 100vh;
-    margin: 2rem;
-    margin: auto;
     display: flex;
+}
+
+.controls {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .sheet {
@@ -47,3 +48,7 @@ body {
     border: 1px solid var(--littheme-color);
 }
 
+h1 {
+    text-align: center;
+    color: var(--littheme-color);
+}

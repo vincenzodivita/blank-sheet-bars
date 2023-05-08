@@ -1,7 +1,20 @@
+.container {
+    width: calc(100vw - 4rem);
+    height: 100vh;
+    margin: 2rem;
+    margin: auto;
+}
 .controls {
+    margin-top: 2rem;
+    padding-right: 2rem;
     width: 40%;
 }
 
 .sheet {
     max-width: 60%;
+}
+
+h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
