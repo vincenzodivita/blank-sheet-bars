@@ -1,5 +1,5 @@
 /************************************************
-/ General Settings
+/* General Settings
 ************************************************/
 
 /* Browser Reset */
@@ -10,3 +10,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Color Palette */
+
+:root {
+    /* Color of the body */
+    --body-color: #BCC1CC;
+
+    /* Light theme sheet and font colors */
+    --littheme-sheet: #FFFFFF;
+    --littheme-color: #000000;
+    /* Dark theme sheet and font colors */
+    --drktheme-sheet: #3C3C3C;
+    --drktheme-color: #B4B4B4;
+}
+
